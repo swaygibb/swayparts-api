@@ -15,7 +15,7 @@ class PartsController < ApplicationController
 
   # GET /parts/:id
   def show
-    json_response(@part)
+    render json: @part, include: 'items'
   end
 
   # PUT /parts/:id
