@@ -2,4 +2,4 @@
 
 An example rails api project
 
-url: http://swayparts-consumer.herokuapp.com/
+url: http://swayparts-api.herokuapp.com/parts
